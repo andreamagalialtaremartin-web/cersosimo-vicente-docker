@@ -1,18 +1,20 @@
 # TP Docker — MySQL + Java App Server
 ## Datos del alumno
-- Nombre: Cersosimo Vicente
+- Nombre: Magali Altare
 ## 1. ¿Qué es Docker?
-...
+es una plataforma de contenedores que te permite empaquetar aplicaciones con sus dependecias en un contenedor,son mas ligeras que las maquinas virtuales al compartir el kernel del S.O anfrition
 ## 2. Volúmenes en Docker
-...
+es un mecanismo de persistencia que permite a los datos sobrevivir el ciclo de vida del contenedor, existen 3: Named (gestionados por Docker, recomendado para bases de datos), Blind mounts (mapeo directo de un directorio del host) y tmpfs Mounts (almacenamiento en memoria RAM, no persistente)
 ## 3. Redes en Docker
-...
+las gestiona virtualmente y los contenedores con nombre pueden comunicar usando sus nombres como hostname gracias a dns.
 ## 4. ¿Por qué Payara Server?
-...
+Es una distribución de GlassFish mantenida activamente con soporte de produccion y Jakarta EE completo ( EJB, CDI, JPA, JMS, JAX-RS, etc.)
+Tiene Payara Admin Console, una consola de administración web (GUI) accesible en el puerto 4848, imagenes docker optimizadas y actualizadas y escala bien de desarrollo a producción sin cambiar el stack tecnológico.
+
 ## 5. Explicación del docker-compose.yml
-...
+es un archivo de configuracion que te permite editar los contenedores con un solo servicio
 ## 6. Explicación del init.sql
-...
+es un archivo que se inicializa automaticamente al iniciar una base de datos la primera vez
 ## 7. Dificultades y soluciones
 
 
